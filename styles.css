@@ -1,0 +1,183 @@
+body {
+    height: 100vh;
+    background: url('/assets/sky-3.jpg') no-repeat center center/cover;
+    background-size: 400px 100vh;
+    margin: 0 auto; 
+    padding: 0;
+    text-align: center;
+    color: #585858;
+    overflow: hidden;
+    max-width: 400px; 
+}
+p {
+    line-height: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    color: #585858;
+    margin-top: 2px;
+}
+
+h3 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    color: #585858;
+}
+.container {
+    max-width: 400px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 1rem;
+}
+.weather-content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+.temperature {
+    flex:0.4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.temp{
+    font-family: Inter;
+    font-size: 50px;
+    transform: translateY(+40%);
+    transform: translateX(+10%);
+    font-weight: 700;
+    position: absolute;
+    color: #585858;
+    text-align: center;
+}
+.feels-like {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #585858;
+}
+.high-low {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    color: #585858;
+    align-items: center;
+}
+.sun-image {
+    transform: translateY(-20%);
+    width: 120px;
+    height: 120px;
+}
+.description {
+    flex: 0.6;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #585858;
+    text-align: right;
+}
+.small {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    color: #585858;
+    line-height:12px;
+}
+
+.forecasts {
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top:25px;
+}
+a {
+    text-decoration: none;
+    color: #585858;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+a:hover {
+    color: blueviolet;
+}
+.hourly-weather-container {
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    padding: 5px 0;
+}
+
+.hourly-weather {
+    display: flex;
+    gap: 5px; 
+}
+.hour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px; 
+    padding: 5px;
+    background: rgba(148, 146, 146, 0.40);
+    border-radius: 10px;
+}
+
+.time {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.weather-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.small-temp {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    line-height:16px;
+}
+.tiny {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 12px;
+}
+.info-box {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    margin-bottom:15px;
+}
+.box {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 100px;
+    align-items: center;
+    font-family:Inter;
+    font-size: 14px;
+    font-weight: 300;
+    color: #585858;
+}
+.weekly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px; 
+    padding: 5px;
+    background: rgba(148, 146, 146, 0.40);
+    border-radius: 10px;
+    line-height: 16px;
+}
+
